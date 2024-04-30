@@ -7,30 +7,49 @@
     <title>Document</title>
   </head>
   <body>
-    
     <h2 class="titre">Inscription:</h2>
-    
+
     <form action="" class="formulaire">
-        <input type="text" placeholder="nom" class="name1" id="name1">
-        <span class="nameError">Nom invalide</span>
+      <!--  -->
+      <div class="nomContainer">
+        <input type="text" placeholder="nom" class="name1" id="name1" /> <br>
+        <span class="nameError"></span>
+      </div>
+      <!--  -->
 
-        <input type="text" placeholder="prenom" class="prenom" id="prenom">
-        <span class="prenomError">Nom invalide</span>
+      <div class="prenomContainer">
+        <input type="text" placeholder="prenom" class="prenom" id="prenom" /> <br>
+        <span class="prenomError"></span>
+      </div>
 
+      <div class="emailContainer">
+        <input type="text" placeholder="email" class="email" id="email" /> <br>
+        <span class="emailError"></span>
+      </div>
 
-        <input type="text" placeholder="email" class="email" id="email">
-        <span class="emailError">Email invalide</span>
-        
+      <div class="passwordContainer">
+        <input
+          type="password"
+          placeholder="mot de passe"
+          class="pass"
+          id="pass"
+        /> <br>
+        <span class="passError"></span>
+      </div>
 
-        <input type="password" placeholder="mot de passe" class="pass" id="pass">
-        <span class="passError">Mot de passe invalide</span>
-       
+      <div class="confirmContainer">
+        <input
+          type="password"
+          placeholder="Confimer mot de passe"
+          class="confirm"
+          id="confirm"
+        /> <br>
+        <span class="confirmError"></span>
+      </div>
 
-        <input type="password" placeholder="Confimer mot de passe" class="confirm" id="confirm">
-        <span class="confirmError">Passe invalide</span>
-        
-        
-        <input type="button" class="submit" value="Valider">
+      <div>
+        <input type="button" class="submit" value="Valider" />
+      </div>
     </form>
 
     <script src="./index1.js"></script>

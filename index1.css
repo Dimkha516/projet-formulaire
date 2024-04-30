@@ -68,5 +68,10 @@ span{
     color: red;
     font-weight: 900;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* visibility: hidden; */
+    visibility: hidden;
+}
+
+.showSpan span{
+    visibility: visible;
+    /* transition: 1s; */
 }
