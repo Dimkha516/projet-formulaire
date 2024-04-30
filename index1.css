@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titre{
+    color: tomato;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    right: 280px;
+    font-weight: 900;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.formulaire{
+    background-color: rgb(24, 43, 63);
+    border: solid 2px teal;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 2%;
+    padding: 4px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 12px;
+}
+
+input[type="text"]{
+    margin: 5px auto; 
+    width: 50%;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    border-radius: 12px;
+    background-color: rgb(8, 8, 83);
+    color: white;
+}
+
+input[type="password"]{
+    margin: 5px auto;
+    width: 50%;
+    padding: 8px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 12px;
+background-color: rgb(8, 8, 83);
+    color: white;
+}
+
+.submit{
+    margin: 0 auto;
+    text-align: center;
+    width: 15%;
+    height: 5vh;
+    width: 10vw;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+span{
+    color: red;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* visibility: hidden; */
+}
